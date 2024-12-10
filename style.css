@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  color: white;
+}
+
+header {
+  background-color: black;
+  padding: 22px;
+}
+.header-info{
+  display: flex;
+  justify-content: space-between;
+  .logo h4{
+    color: white;
+    margin: 0;
+  }
+  .info {
+    a {
+      margin: 0 14px;
+    }
+    i{
+      color: white;
+    }
+  }
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 10px;
+  padding: 40px 40px 10px 40px;
+ 
+}
+ul {
+  list-style-type: none;
+}
+.text-center{
+  text-align: center;
+}
+.btn {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 3px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.start-btn{
+  background-color: white; 
+  color: white; 
+  background-color: #008CBA; 
+  display: block;
+  margin: 0 auto;
+}
+.start-btn:hover {
+  border: 2px solid #008CBA;
+  color: white;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+}
+#contentArea{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.question {
+  color: black;
+}
+.question ul {
+  padding: 0;
+  li {
+    padding: 8px 0;
+  }
+}
+.next-btn {
+  color: white; 
+  background-color: #008CBA; 
+  display: block;
+  margin: 0 auto;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 3px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.next-btn:hover {
+  border: 2px solid #008CBA;
+  color: white;
+}
+.done {
+  text-align: center;
+  height: 200px;
+  line-height: 200px;
+  font-size: 20px;
+}
+.completed {
+  background-image: url('done.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
